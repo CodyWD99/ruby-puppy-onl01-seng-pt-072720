@@ -12,6 +12,11 @@ class Dog
     @@all
   end
   
-  def 
+  def self.print_all
+    @@all.each do |dog|
+      puts "#{dog}"
+    end
+  end
   
+  def save
 end
